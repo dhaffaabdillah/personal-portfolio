@@ -1,170 +1,9 @@
 <template>
     <!-- Wrapper -->
     <div class="wrapper">
+        <StartedSectionComponents/>
 
-    <!-- Section - Hero Started -->
-        <section class="lui-section lui-section-hero lui-gradient-top" id="started-section">
-            <div class="container">
-
-                <!-- Hero Started -->
-                <div class="lui-started v-line v-line-left">
-                    <div class="section hero-started">
-                        <div class="content scrolla-element-anim-1 scroll-animate" data-animate="active">
-                            <div class="titles">
-                                <div class="lui-subtitle">
-                                    <span> Hello, <b>my name is</b>
-                                    </span>
-                                </div>
-                                <h1 class="title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
-                                    <span>
-                                        <b>Dhaffa</b> Abdillah </span>
-                                </h1>
-                                <div class="label lui-subtitle"> I am <strong>Web Developer</strong>
-                                </div>
-                            </div>
-                            <div class="description">
-                                <div>
-                                    <p>From Jakarta, Indonesia. I have some experiences in Website Development, especially in Backend Development. Also I am good at video editing.</p>
-                                </div>
-                                <div class="social-links">
-                                    <a target="_blank" rel="nofollow" href="#">
-                                        <i aria-hidden="true" class="fab fa-twitter"></i>
-                                    </a>
-                                    <a target="_blank" rel="nofollow" href="#">
-                                        <i aria-hidden="true" class="fab fa-dribbble"></i>
-                                    </a>
-                                    <a target="_blank" rel="nofollow" href="#">
-                                        <i aria-hidden="true" class="fab fa-behance"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="bts">
-                                <a target="_blank" href="https://drive.google.com/" class="btn">
-                                    <span>Download CV</span>
-                                </a>
-                                <a href="#skills-section" class="btn-lnk"> My Skills </a>
-                            </div>
-                        </div>
-                        <div class="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
-                            <img decoding="async" src="assets/images/profile2.png" alt="&lt;b&gt;Dhaffa&lt;/b&gt; Abdillah Hakim" >
-                            <span class="circle circle-1"></span>
-                            <span class="circle img-1" style="background-image: url(assets/images/pat-1.png);"></span>
-                            <span class="circle img-2" style="background-image: url(assets/images/pat-2.png);"></span>
-                            <span class="circle img-3" style="background-image: url(assets/images/pat-2.png);"></span>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <span class="num">1 <strong></strong>
-                                        </span>
-                                        <span class="value">Year of <strong>Experience</strong>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="num">5</span>
-                                        <span class="value">Completed <strong>Projects</strong>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lui-bgtitle">
-                        <span> Web Developer </span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Section - Services -->
-        <section class="lui-section lui-gradient-bottom" id="services-section">
-
-            <!-- Heading -->
-            <div class="lui-heading">
-                <div class="container">
-
-                            <div class="m-titles align-center">
-                                <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-                                    <span> What I Do </span>
-                                </h2>
-                                <div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-                                    <span> my <b>Services</b> </span>
-                                </div>
-                            </div>
-
-                </div>
-            </div>
-
-            <!-- Services -->
-            <div class="v-line v-line-right">
-                <div class="container">
-
-                        <div class="swiper-container js-services scrolla-element-anim-1 scroll-animate" data-animate="active">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="services-item">
-                                        <div class="lui-subtitle">
-                                            <span> Web Development </span>
-                                        </div>
-                                        <div class="icon"></div>
-                                        <h5 class="lui-title">
-                                            <span> Web Development </span>
-                                        </h5>
-                                        <div class="lui-text">
-                                            <div> Website development is now very much needed, especially people who are starting businesses and companies. </div>
-                                        </div>
-                                        <a href="#pricing-section" class="lnk"> See Pricing </a>
-                                        <div class="image" style="background-image: url(assets/images/pat-2.png);"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="services-item">
-                                        <div class="lui-subtitle">
-                                            <span> Apps Development </span>
-                                        </div>
-                                        <div class="icon"></div>
-                                        <h5 class="lui-title">
-                                            <span> iOS &amp; Android </span>
-                                        </h5>
-                                        <div class="lui-text">
-                                            <div>
-                                                <p>Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.</p>
-                                            </div>
-                                        </div>
-                                        <a href="#pricing-section" class="lnk"> See Pricing </a>
-                                        <div class="image" style="background-image: url(assets/images/pat-2.png);"></div>
-                                    </div>
-                                </div>
-                                
-                                <div class="swiper-slide">
-                                    <div class="services-item">
-                                        <div class="lui-subtitle">
-                                            <span> Video Editing </span>
-                                        </div>
-                                        <div class="icon"></div>
-                                        <h5 class="lui-title">
-                                            <span> Premiere Pro </span>
-                                        </h5>
-                                        <div class="lui-text">
-                                            <div> Video editing is one of my hobby, doing with enjoy. </div>
-                                        </div>
-                                        <a href="#pricing-section" class="lnk"> See Pricing </a>
-                                        <div class="image" style="background-image: url(assets/images/pat-2.png);"></div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-
-                        <div class="lui-bgtitle">
-                            <span> Services </span>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
+        <ServicesComponents/>
 
             <!-- Section - Skills -->
             <section class="lui-section lui-gradient-center" id="skills-section">
@@ -1266,3 +1105,15 @@
 
     </div>
 </template>
+<script>
+import StartedSectionComponents from '@/components/StartedSectionComponents.vue'
+import ServicesComponents from '@/components/ServicesComponents.vue'
+export default {
+    name: 'HomeView',
+    components: {
+        StartedSectionComponents,
+        ServicesComponents
+    }
+    
+}
+</script>
