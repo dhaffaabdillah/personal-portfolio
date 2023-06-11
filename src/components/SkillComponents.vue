@@ -8,7 +8,7 @@
 
                 <div class="m-titles align-center">
                     <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-                    <span> Professional Skills </span>
+                    <span> My Skills </span>
                     </h2>
                     <div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
                     <span> my <b>Talent</b> </span>
