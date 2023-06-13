@@ -27,7 +27,7 @@
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
             <div class="image">
-            <a href="blog-single.html">
+            <a href="#skills-section">
                 <img decoding="async" src="assets/images/single7.jpg" alt="The Main Thing For The Designer" >
             </a>
             </div>
@@ -36,12 +36,12 @@
                 <span>October 31, 2022</span>
             </div>
             <h5 class="lui-title">
-                <a href="blog-single.html">The Main Thing For The Designer</a>
+                <a href="#skills-section">The Main Thing For The Designer</a>
             </h5>
             <div class="lui-text">
                 <p>Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget&#8230; </p>
                 <div class="readmore">
-                <a href="blog-single.html" class="lnk">Read more</a>
+                <a href="#skills-section" class="lnk">Read more</a>
                 </div>
             </div>
             </div>
@@ -50,7 +50,7 @@
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
             <div class="image">
-            <a href="blog-single.html">
+            <a href="#skills-section">
                 <img decoding="async" src="assets/images/blog-4-scaled-1.jpg" alt="Follow Your Own Design Process" >
             </a>
             </div>
@@ -59,12 +59,12 @@
                 <span>October 31, 2022</span>
             </div>
             <h5 class="lui-title">
-                <a href="blog-single.html">Follow Your Own Design Process</a>
+                <a href="#skills-section">Follow Your Own Design Process</a>
             </h5>
             <div class="lui-text">
                 <p>Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget&#8230; </p>
                 <div class="readmore">
-                <a href="blog-single.html" class="lnk">Read more</a>
+                <a href="#skills-section" class="lnk">Read more</a>
                 </div>
             </div>
             </div>
@@ -73,7 +73,7 @@
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
             <div class="image">
-            <a href="blog-single.html">
+            <a href="#skills-section">
                 <img decoding="async" src="assets/images/blog-2.jpg" alt="Usability Secrets to Create Better Interfaces" >
             </a>
             </div>
@@ -82,12 +82,12 @@
                 <span>November 28, 2021</span>
             </div>
             <h5 class="lui-title">
-                <a href="blog-single.html">Usability Secrets to Create Better Interfaces</a>
+                <a href="#skills-section">Usability Secrets to Create Better Interfaces</a>
             </h5>
             <div class="lui-text">
                 <p>Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget&#8230; </p>
                 <div class="readmore">
-                <a href="blog-single.html" class="lnk">Read more</a>
+                <a href="#skills-section" class="lnk">Read more</a>
                 </div>
             </div>
             </div>
