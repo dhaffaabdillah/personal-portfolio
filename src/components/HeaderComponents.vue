@@ -71,7 +71,7 @@
                                                 <li class="menu-item">
                                                     <a class="splitting-text-anim-2" data-splitting="chars" href="#contact-section">Contact</a>
                                                 </li>
-                                                <li class="menu-item menu-item-has-children has-children">
+                                                <!-- <li class="menu-item menu-item-has-children has-children">
                                                     <a class="splitting-text-anim-2" data-splitting="chars">Pages</a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item">
@@ -90,7 +90,7 @@
                                                             <a class="splitting-text-anim-1" data-splitting="chars" href="blog-single.html">Single Post</a>
                                                         </li>
                                                     </ul>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </div>
 
