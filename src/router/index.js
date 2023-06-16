@@ -8,6 +8,11 @@ const routes = [
       name: 'home',
       component: HomeView
     },
+    {
+        path: '/index',
+        name: 'index',
+        component: HomeView
+    },
     // {
     //     path: '/:pathMatch(.*)*',
     //     name: 'page-not-found',
