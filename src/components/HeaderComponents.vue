@@ -7,7 +7,7 @@
                     <!-- logo -->
                     <div class="logo">
                         <a href="/">
-                            <img width="228" height="38" src="assets/images/logo2.png" alt="" >
+                            <img width="40%"  src="assets/images/logo-new-2.png" alt="" >
                         </a>
                     </div>
 

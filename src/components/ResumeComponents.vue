@@ -28,61 +28,27 @@
                         <h5 class="history-title scrolla-element-anim-1 scroll-animate" data-animate="active">
                             <span> Education </span>
                         </h5>
-                        <div class="history-items">
+                        <div class="history-items" v-for="item in educationalItems" :key="item.id">
                             <div class="history-item lui-collapse-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                                 <h6 class="name lui-collapse-btn">
-                                    <span> SMKN 1 Depok </span>
+                                    <span> {{item.education_name}}</span>
                                 </h6>
                                 <div class="history-content">
                                     <div class="subname">
-                                        <span> Software Engineering </span>
+                                        <span> {{ item.major }} </span>
                                     </div>
                                     <div class="date lui-subtitle">
-                                        <span> 2019 - 2022 </span>
+                                        <span> {{ item.start_year }} - {{item.end_year}} </span>
                                     </div>
                                     <div class="text">
                                         <div>
-                                            <p>As software engineer student at Vocational High School, i learned lot of knowledge about programming.</p>
+                                            <p>{{ item.education_description }}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="history-item lui-collapse-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-                                <h6 class="name lui-collapse-btn">
-                                    <span> IPWIJA University </span>
-                                </h6>
-                                <div class="history-content">
-                                    <div class="subname">
-                                        <span> Faculty of Informatics </span>
-                                    </div>
-                                    <div class="date lui-subtitle">
-                                        <span> 2023 - 2027 </span>
-                                    </div>
-                                    <div class="text">
-                                        <div>
-                                            <p>My interest about programming and software development bring me to Software Engineer major. Learn more about software development.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="history-item lui-collapse-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-                                <h6 class="name lui-collapse-btn">
-                                    <span> IT Future </span>
-                                </h6>
-                                <div class="history-content">
-                                    <div class="subname">
-                                        <span> High School </span>
-                                    </div>
-                                    <div class="date lui-subtitle">
-                                        <span> 2010 - 2012 </span>
-                                    </div>
-                                    <div class="text">
-                                        <div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
+                            
+                            
                         </div>
 
                     </div>
@@ -195,6 +161,33 @@
 
 <script>
 export default {
-    name: "ResumeComponents"
+    name: "ResumeComponents",
+    data() {
+        return {
+            educationalItems : [
+                {
+                    'id' : 1,
+                    'education_type' : 'High School',
+                    'education_name' : 'SMKN 1 Depok',
+                    'major' : 'Software Engineering',
+                    'start_year' : 2019,
+                    'end_year' : 2022,
+                    'education_description' : "I went to SMKN 1 Depok, where I pursued a major in Software Engineering. During my time there, I learned about coding and gained a solid understanding of fundamental concepts."
+
+                },
+                {
+                    'id' : 2,
+                    'education_type' : 'College',
+                    'education_name' : 'IPWIJA University',
+                    'major' : 'Software Engineering',
+                    'start_year' : 2023,
+                    'end_year' : 2027,
+                    'education_description' : "I'm currently enrolled in college at IPWIJA University, where I'm majoring in Software Engineering. This program is helping me deepen my skills in the world of programming."
+
+                },
+            ],
+            workExperienceItems: []
+        }
+    }
 }
 </script>

@@ -37,7 +37,7 @@
                                     <div class="lui-text">
                                         <div> {{ item.serviceDescription}} </div>
                                     </div>
-                                    <a href="#pricing-section" class="lnk"> See Pricing </a>
+                                    <!-- <a href="#pricing-section" class="lnk"> See Pricing </a> -->
                                     <div class="image" style="background-image: url(assets/images/pat-2.png);"></div>
                                 </div>
                             </div>
